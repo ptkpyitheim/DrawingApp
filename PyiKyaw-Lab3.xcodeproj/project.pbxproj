@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4D87152165001F00350006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87142165001F00350006 /* AppDelegate.swift */; };
+		BD4D87172165001F00350006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87162165001F00350006 /* ViewController.swift */; };
+		BD4D871A2165001F00350006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D87182165001F00350006 /* Main.storyboard */; };
+		BD4D871C2165002100350006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4D871B2165002100350006 /* Assets.xcassets */; };
+		BD4D871F2165002100350006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D871D2165002100350006 /* LaunchScreen.storyboard */; };
+		BD4D872A2165002100350006 /* PyiKyaw_Lab3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87292165002100350006 /* PyiKyaw_Lab3Tests.swift */; };
+		BD4D87352165002100350006 /* PyiKyaw_Lab3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87342165002100350006 /* PyiKyaw_Lab3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4D87262165002100350006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4D87092165001F00350006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4D87102165001F00350006;
+			remoteInfo = "PyiKyaw-Lab3";
+		};
+		BD4D87312165002100350006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4D87092165001F00350006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4D87102165001F00350006;
+			remoteInfo = "PyiKyaw-Lab3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD4D87112165001F00350006 /* PyiKyaw-Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PyiKyaw-Lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D87142165001F00350006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD4D87162165001F00350006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD4D87192165001F00350006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4D871B2165002100350006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4D871E2165002100350006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4D87202165002100350006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4D87252165002100350006 /* PyiKyaw-Lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PyiKyaw-Lab3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D87292165002100350006 /* PyiKyaw_Lab3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyiKyaw_Lab3Tests.swift; sourceTree = "<group>"; };
+		BD4D872B2165002100350006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4D87302165002100350006 /* PyiKyaw-Lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PyiKyaw-Lab3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4D87342165002100350006 /* PyiKyaw_Lab3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyiKyaw_Lab3UITests.swift; sourceTree = "<group>"; };
+		BD4D87362165002100350006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4D870E2165001F00350006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D87222165002100350006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D872D2165002100350006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4D87082165001F00350006 = {
+			isa = PBXGroup;
+			children = (
+				BD4D87132165001F00350006 /* PyiKyaw-Lab3 */,
+				BD4D87282165002100350006 /* PyiKyaw-Lab3Tests */,
+				BD4D87332165002100350006 /* PyiKyaw-Lab3UITests */,
+				BD4D87122165001F00350006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4D87122165001F00350006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D87112165001F00350006 /* PyiKyaw-Lab3.app */,
+				BD4D87252165002100350006 /* PyiKyaw-Lab3Tests.xctest */,
+				BD4D87302165002100350006 /* PyiKyaw-Lab3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4D87132165001F00350006 /* PyiKyaw-Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D87142165001F00350006 /* AppDelegate.swift */,
+				BD4D87162165001F00350006 /* ViewController.swift */,
+				BD4D87182165001F00350006 /* Main.storyboard */,
+				BD4D871B2165002100350006 /* Assets.xcassets */,
+				BD4D871D2165002100350006 /* LaunchScreen.storyboard */,
+				BD4D87202165002100350006 /* Info.plist */,
+			);
+			path = "PyiKyaw-Lab3";
+			sourceTree = "<group>";
+		};
+		BD4D87282165002100350006 /* PyiKyaw-Lab3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D87292165002100350006 /* PyiKyaw_Lab3Tests.swift */,
+				BD4D872B2165002100350006 /* Info.plist */,
+			);
+			path = "PyiKyaw-Lab3Tests";
+			sourceTree = "<group>";
+		};
+		BD4D87332165002100350006 /* PyiKyaw-Lab3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4D87342165002100350006 /* PyiKyaw_Lab3UITests.swift */,
+				BD4D87362165002100350006 /* Info.plist */,
+			);
+			path = "PyiKyaw-Lab3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4D87102165001F00350006 /* PyiKyaw-Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4D87392165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3" */;
+			buildPhases = (
+				BD4D870D2165001F00350006 /* Sources */,
+				BD4D870E2165001F00350006 /* Frameworks */,
+				BD4D870F2165001F00350006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PyiKyaw-Lab3";
+			productName = "PyiKyaw-Lab3";
+			productReference = BD4D87112165001F00350006 /* PyiKyaw-Lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4D87242165002100350006 /* PyiKyaw-Lab3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4D873C2165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3Tests" */;
+			buildPhases = (
+				BD4D87212165002100350006 /* Sources */,
+				BD4D87222165002100350006 /* Frameworks */,
+				BD4D87232165002100350006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4D87272165002100350006 /* PBXTargetDependency */,
+			);
+			name = "PyiKyaw-Lab3Tests";
+			productName = "PyiKyaw-Lab3Tests";
+			productReference = BD4D87252165002100350006 /* PyiKyaw-Lab3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4D872F2165002100350006 /* PyiKyaw-Lab3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4D873F2165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3UITests" */;
+			buildPhases = (
+				BD4D872C2165002100350006 /* Sources */,
+				BD4D872D2165002100350006 /* Frameworks */,
+				BD4D872E2165002100350006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4D87322165002100350006 /* PBXTargetDependency */,
+			);
+			name = "PyiKyaw-Lab3UITests";
+			productName = "PyiKyaw-Lab3UITests";
+			productReference = BD4D87302165002100350006 /* PyiKyaw-Lab3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4D87092165001F00350006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Pyi Theim Kyaw";
+				TargetAttributes = {
+					BD4D87102165001F00350006 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BD4D87242165002100350006 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD4D87102165001F00350006;
+					};
+					BD4D872F2165002100350006 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BD4D87102165001F00350006;
+					};
+				};
+			};
+			buildConfigurationList = BD4D870C2165001F00350006 /* Build configuration list for PBXProject "PyiKyaw-Lab3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4D87082165001F00350006;
+			productRefGroup = BD4D87122165001F00350006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4D87102165001F00350006 /* PyiKyaw-Lab3 */,
+				BD4D87242165002100350006 /* PyiKyaw-Lab3Tests */,
+				BD4D872F2165002100350006 /* PyiKyaw-Lab3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4D870F2165001F00350006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D871F2165002100350006 /* LaunchScreen.storyboard in Resources */,
+				BD4D871C2165002100350006 /* Assets.xcassets in Resources */,
+				BD4D871A2165001F00350006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D87232165002100350006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D872E2165002100350006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4D870D2165001F00350006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D87172165001F00350006 /* ViewController.swift in Sources */,
+				BD4D87152165001F00350006 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D87212165002100350006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D872A2165002100350006 /* PyiKyaw_Lab3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4D872C2165002100350006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4D87352165002100350006 /* PyiKyaw_Lab3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4D87272165002100350006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4D87102165001F00350006 /* PyiKyaw-Lab3 */;
+			targetProxy = BD4D87262165002100350006 /* PBXContainerItemProxy */;
+		};
+		BD4D87322165002100350006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4D87102165001F00350006 /* PyiKyaw-Lab3 */;
+			targetProxy = BD4D87312165002100350006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4D87182165001F00350006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4D87192165001F00350006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4D871D2165002100350006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4D871E2165002100350006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4D87372165002100350006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD4D87382165002100350006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4D873A2165002100350006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4D873B2165002100350006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD4D873D2165002100350006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PyiKyaw-Lab3.app/PyiKyaw-Lab3";
+			};
+			name = Debug;
+		};
+		BD4D873E2165002100350006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PyiKyaw-Lab3.app/PyiKyaw-Lab3";
+			};
+			name = Release;
+		};
+		BD4D87402165002100350006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PyiKyaw-Lab3";
+			};
+			name = Debug;
+		};
+		BD4D87412165002100350006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDW74SHABR;
+				INFOPLIST_FILE = "PyiKyaw-Lab3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wustl.PyiKyaw-Lab3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PyiKyaw-Lab3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4D870C2165001F00350006 /* Build configuration list for PBXProject "PyiKyaw-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D87372165002100350006 /* Debug */,
+				BD4D87382165002100350006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4D87392165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D873A2165002100350006 /* Debug */,
+				BD4D873B2165002100350006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4D873C2165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D873D2165002100350006 /* Debug */,
+				BD4D873E2165002100350006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4D873F2165002100350006 /* Build configuration list for PBXNativeTarget "PyiKyaw-Lab3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4D87402165002100350006 /* Debug */,
+				BD4D87412165002100350006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4D87092165001F00350006 /* Project object */;
+}

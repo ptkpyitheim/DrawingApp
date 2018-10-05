@@ -14,6 +14,8 @@
 		BD4D871F2165002100350006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4D871D2165002100350006 /* LaunchScreen.storyboard */; };
 		BD4D872A2165002100350006 /* PyiKyaw_Lab3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87292165002100350006 /* PyiKyaw_Lab3Tests.swift */; };
 		BD4D87352165002100350006 /* PyiKyaw_Lab3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87342165002100350006 /* PyiKyaw_Lab3UITests.swift */; };
+		BD4D87432165131200350006 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87422165131200350006 /* DotView.swift */; };
+		BD4D87452165651500350006 /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D87442165651500350006 /* Dot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BD4D87302165002100350006 /* PyiKyaw-Lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PyiKyaw-Lab3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4D87342165002100350006 /* PyiKyaw_Lab3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyiKyaw_Lab3UITests.swift; sourceTree = "<group>"; };
 		BD4D87362165002100350006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4D87422165131200350006 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		BD4D87442165651500350006 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				BD4D87142165001F00350006 /* AppDelegate.swift */,
 				BD4D87162165001F00350006 /* ViewController.swift */,
+				BD4D87422165131200350006 /* DotView.swift */,
+				BD4D87442165651500350006 /* Dot.swift */,
 				BD4D87182165001F00350006 /* Main.storyboard */,
 				BD4D871B2165002100350006 /* Assets.xcassets */,
 				BD4D871D2165002100350006 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4D87172165001F00350006 /* ViewController.swift in Sources */,
+				BD4D87452165651500350006 /* Dot.swift in Sources */,
+				BD4D87432165131200350006 /* DotView.swift in Sources */,
 				BD4D87152165001F00350006 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
